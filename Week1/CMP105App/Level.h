@@ -4,7 +4,6 @@
 #include <string.h>
 #include <iostream>
 
-
 class Level{
 public:
 	Level(sf::RenderWindow* hwnd);
@@ -21,4 +20,8 @@ private:
 
 	sf::RectangleShape rect;
 	sf::CircleShape circle;
+	sf::RectangleShape rects[3];
+
+	sf::Font font;
+	sf::Text text;
 };
